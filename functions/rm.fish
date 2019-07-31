@@ -1,3 +1,3 @@
-function rm --description 'alias rm=del'
-    del $argv
+function rm --description 'alias rm=safe-rm'
+    safe-rm $argv
 end

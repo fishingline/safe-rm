@@ -1,4 +1,3 @@
-function del --description 'A safer rm'
-    set -l loc (dirname (status --current-filename))
-    $loc/__shell-safe-rm.bash $argv
+function del --description 'alias del=safe-rm'
+    safe-rm $argv
 end
