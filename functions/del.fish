@@ -1,3 +1,4 @@
 function del --description 'A safer rm'
-    (dirname (status -f))/__shell-safe-rm.bash $argv
+    set -l loc (dirname (status --current-filename))
+    $loc/__shell-safe-rm.bash $argv
 end
