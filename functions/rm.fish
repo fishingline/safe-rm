@@ -1,3 +1,3 @@
-function rm2 --description 'A safer rm'
-    perl -t (dirname (status -f))/__safe-rm.pl $argv
+function rm --description 'A safer rm'
+    (dirname (status -f))/__shell-safe-rm.bash $argv
 end
