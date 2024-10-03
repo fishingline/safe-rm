@@ -9,7 +9,7 @@ Read about the project this is based on [here][shell-safe-rm].
 fisher installation:
 
 ```shell
-fisher add fishingline/safe-rm
+fisher install fishingline/safe-rm
 ```
 
 [shell-safe-rm]: https://github.com/kaelzhang/shell-safe-rm
